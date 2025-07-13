@@ -66,6 +66,9 @@ const Footer = () => {
               <a href="mailto:purushothaman752005@gmail.com" className="hover:text-primary transition-colors">
                 purushothaman752005@gmail.com
               </a>
+              <a href="https://www.linkedin.com/in/purushothaman-v-/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                LinkedIn Profile
+              </a>
               <p>+91 8072375925</p>
               <p>Chennai, Tamil Nadu, India</p>
             </div>

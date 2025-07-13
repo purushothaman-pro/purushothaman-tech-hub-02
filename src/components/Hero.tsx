@@ -1,4 +1,4 @@
-import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Download, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 const profilePhoto = '/lovable-uploads/027c57d1-4cab-4515-b706-cede95b757d8.png';
 import heroBg from '@/assets/hero-bg.jpg';
@@ -66,17 +66,11 @@ const Hero = () => {
             
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <a href="www.linkedin.com/in/
-purushothaman-v-
-Vanity URL name
-" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
+              <a href="https://www.linkedin.com/in/purushothaman-v-/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
                 <Linkedin className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
               </a>
               <a href="https://github.com/purushothaman-pro" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
                 <Github className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
-              </a>
-              <a href="mailto:purushothaman752005@gmail.com" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
-                <Mail className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
               </a>
             </div>
           </div>
