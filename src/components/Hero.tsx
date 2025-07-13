@@ -56,15 +56,17 @@ const Hero = () => {
                 View My Work
                 <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
               </Button>
-              <Button className="btn-accent" onClick={() => scrollToSection('#contact')}>
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
+              <Button className="btn-accent" asChild>
+                <a href="https://drive.google.com/drive/folders/1Qe6Qrvse-qTHxzrcIbBbZh7DxPlm3Ro_" target="_blank" rel="noopener noreferrer">
+                  <Download className="mr-2 h-4 w-4" />
+                  Download Resume
+                </a>
               </Button>
             </div>
             
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <a href="https://linkedin.com/in/purushothaman-v" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
+              <a href="https://www.linkedin.com/in/purushothaman-v-" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
                 <Linkedin className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
               </a>
               <a href="https://github.com/purushothaman-pro" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">

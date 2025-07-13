@@ -33,7 +33,7 @@ const Projects = () => {
         "Cross-platform compatibility"
       ],
       icon: BookOpen,
-      liveUrl: "https://dailyink-journal.com", // Replace with actual URL
+      liveUrl: "https://dailyink-60043723803.development.catalystserverless.in/app/index.html",
       githubUrl: "https://github.com/purushothaman-pro/PROJECT_DailyInk",
       gradient: "from-accent to-accent-glow"
     }

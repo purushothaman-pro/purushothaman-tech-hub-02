@@ -63,7 +63,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Contact</h4>
             <div className="space-y-2 text-sm text-foreground/70">
-              <p>purushothaman752005@gmail.com</p>
+              <a href="mailto:purushothaman752005@gmail.com" className="hover:text-primary transition-colors">
+                purushothaman752005@gmail.com
+              </a>
               <p>+91 8072375925</p>
               <p>Chennai, Tamil Nadu, India</p>
             </div>
