@@ -84,7 +84,11 @@ const Hero = () => {
               {/* Background Decoration */}
               <div className="absolute -inset-4 bg-gradient-to-r from-accent to-accent-glow rounded-3xl blur-lg opacity-30 animate-pulse"></div>
               <div className="relative bg-white/10 backdrop-blur-sm p-8 rounded-3xl">
-                
+                <img 
+                  src={profilePhoto} 
+                  alt="Purushothaman V" 
+                  className="w-64 h-64 object-cover rounded-2xl shadow-2xl"
+                />
               </div>
               {/* Floating Badge */}
               <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full font-semibold shadow-lg">
