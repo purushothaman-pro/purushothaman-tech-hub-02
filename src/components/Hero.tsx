@@ -66,7 +66,10 @@ const Hero = () => {
             
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <a href="https://www.linkedin.com/in/purushothaman-v-" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
+              <a href="www.linkedin.com/in/
+purushothaman-v-
+Vanity URL name
+" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
                 <Linkedin className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
               </a>
               <a href="https://github.com/purushothaman-pro" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
