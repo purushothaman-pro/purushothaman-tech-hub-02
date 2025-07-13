@@ -41,7 +41,7 @@ const Hero = () => {
                 Purushothaman V
               </h1>
               <div className="text-xl sm:text-2xl lg:text-3xl font-heading font-semibold text-accent-glow">
-                Mechanical Engineer | AI Enthusiast | Front-End Developer
+                CAD CAM Designer | Mechanical Engineer | AI Enthusiast | Front-End Developer
               </div>
             </div>
             
