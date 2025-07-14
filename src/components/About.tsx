@@ -24,7 +24,7 @@ const About = () => {
       institution: 'Vel Tech Multi Tech Engineering College',
       degree: 'B.E. Mechanical Engineering, Minor in AI',
       duration: '2022–2026',
-      grade: 'CGPA: 8.6'
+      grade: 'CGPA: 8.60 (till 6th sem)'
     },
     {
       institution: 'CSI St. Andrews School',
