@@ -36,7 +36,7 @@ const Contact = () => {
   const socialLinks = [{
     icon: Linkedin,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/purushothaman-v-/',
+    href: 'https://www.linkedin.com/in/purushothaman-v-/',
     color: 'from-blue-500 to-blue-600'
   }, {
     icon: Github,
